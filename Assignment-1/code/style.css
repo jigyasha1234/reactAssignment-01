@@ -1,1 +1,114 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+.main-content{
+    margin: 20px;
+    width: 100%;
+    height: auto;
+}
+.yellow-content .content{
+    background-color: yellow;
+    min-height: 150px;
+    margin: 10px;
+    width: 48%;
+    display: inline-flex;
+}
+.pink-content .content{
+    background-color: rgb(202, 52, 190);
+    min-height: 150px;
+    margin: 10px;
+}
+.content4, .content5, .content6{
+    background-color: royalblue;
+    min-height: 150px;
+    width: 30%;
+    margin: 10px;
+    display: inline-flex;
+} 
 
+@media (min-width:0px) and (max-width:320px){
+   
+    .yellow-content .content{
+        background-color: yellow;
+        min-height: 150px;
+        display: flex;
+        width: 100%;
+    }
+    .pink-content .content{
+        background-color: rgb(202, 52, 190);
+        min-height: 150px;
+        width: 100%;
+    }
+    .blue-content .content4 {
+        background-color: royalblue;
+        min-height: 150px;
+        display: flex;
+        width: 100%;
+    }
+    .blue-content .content5 {
+        background-color: royalblue;
+        min-height: 150px;
+        display: flex;
+        width: 100%;
+    }
+    .blue-content .content6 {
+        background-color: royalblue;
+        min-height: 150px;
+        display: flex;
+        width: 100%;
+    }
+}
+
+ @media (min-width:321px) and (max-width:768px){
+    
+    .yellow-content .content{
+        background-color: yellow;
+        min-height: 150px;
+        width: 100%;
+        margin: 10px;
+    }
+    .pink-content .content{
+        background-color: rgb(202, 52, 190);
+        min-height: 150px;
+        width: 100%;
+        margin: 10px;
+    }
+    .content4, .content5 {
+        display: inline-flex;
+        background-color: rgb(24, 231, 221);
+    }
+    .content4, .content5{
+        height: 150px;
+        width: 42%;
+    }
+    
+    .blue-content .content6 {
+        background-color: royalblue;
+        min-height: 150px;
+        width: 100%;
+        margin: 10px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    
+    .yellow-content .content{
+        background-color: yellow;
+        min-height: 150px;
+        display: inline-flex;
+        width: 42%;
+    }
+    .pink-content .content{
+        background-color: rgb(202, 52, 190);
+        min-height: 150px;
+        width: 100%;
+    }
+    .content4, .content5, .content6{
+        display: inline-flex;
+        background-color: royalblue;
+        min-height: 150px;
+        width: 30%;
+        align-content: space-between;
+    }
+} 

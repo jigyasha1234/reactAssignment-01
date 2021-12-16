@@ -36,13 +36,15 @@
     transform: rotate(360deg);
   }
 }
-.text{
-  text-align: left;
-}
+
 .name{
   color: #61dafb;
+  margin-right: 420px;
 }
-
-.loc, .bg, .age{
-   color: gray;
+.loc, .bgroup, .age{
+  margin-right: 420px;
+  padding: 1vh;
+}
+.lable{
+  color: gray;
 }

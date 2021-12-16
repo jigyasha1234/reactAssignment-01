@@ -11,25 +11,28 @@ const employee = {
 
 function App() {
   return (
-    <div className="text">
     <div className="App">
-      <img src={employee.profileImg} alt="image" />
-      <div className="name">
-      <h2><strong>{employee.name}</strong></h2>
-      </div>
+    <img src={employee.profileImg} alt="image"/>
+    <h1 className="name">Tom</h1>
+
       <div className="loc">
-      <lable>Location</lable>
+        <lable className="lable">Location</lable>
+        <div className="div1"><strong>{employee.location}</strong></div>
       </div>
-      <div>{employee.location}</div>
-      <div className="bg">
-      <lable>BloodGroup</lable>
+
+
+      <div className="bgroup">
+        <lable className="lable">BloodGroup</lable>
+        <div>{employee.bloodGroup}</div>
       </div>
-      <div>{employee.bloodGroup}</div>
+
+
       <div className="age">
-      <lable>Age</lable>
+        <lable className="lable">Age</lable>
+        <div>{employee.age}</div>
       </div>
-      <div>{employee.age}</div>
-    </div>
+
+
     </div>
   );
 }

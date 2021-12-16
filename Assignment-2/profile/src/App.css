@@ -1,7 +1,5 @@
 .App {
   /* text-align: center; */
-  width: 500px;
-  height: 100%;
   align-content: center;
   margin-left: 35%;
 }
@@ -51,4 +49,5 @@
 }
 .lable{
   color: gray;
+  font-size: 0.8em;
 }

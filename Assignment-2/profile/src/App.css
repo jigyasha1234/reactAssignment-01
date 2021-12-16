@@ -1,7 +1,7 @@
 .App {
   /* text-align: center; */
   align-content: center;
-  margin-left: 35%;
+  margin-left: 45%;
 }
 
 .App-logo {
@@ -44,10 +44,19 @@
   margin-right: 420px;
 }
 .loc, .bgroup, .age{
-  margin-right: 420px;
   padding: 1vh;
+}
+.div1{
+  font-size: 0.9em;
 }
 .lable{
   color: gray;
   font-size: 0.8em;
+}
+img{
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+  border: 2px solid rgb(252, 249, 249);
+  border-radius: 10px;
 }

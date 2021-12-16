@@ -3,7 +3,7 @@ import './App.css';
 
 const employee = {
   name: 'Tom',
-  location: 'NewYork',
+  location: 'New York',
   bloodGroup: 'B+',
   age: 28,
   profileImg: 'https://www.w3schools.com/howto/img_avatar.png'

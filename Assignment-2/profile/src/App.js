@@ -17,7 +17,7 @@ function App() {
 
       <div className="loc">
         <lable className="lable">Location</lable>
-        <div className="div1"><strong>{employee.location}</strong></div>
+        <div className="div1">{employee.location}</div>
       </div>
 
 

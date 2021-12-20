@@ -1,63 +1,49 @@
-/* navbar */
-.inside1, .inside2, .inside3{
-    display: inline-flex;
-    justify-content: space-around;
-    padding-right: 150px;
-    padding-left: 150px;
+/* nanbar-style */
+
+.nav-arrow,.nav-button{
+    font-size: 1em;
+    color: black;
 }
-.navbar{
-    border: 6px solid rgb(73, 72, 72);
-    box-shadow: 10px 10px 5px grey;
-    justify-content: center;
-    margin: 20px;
-    width: 95%;
+.nav-hr{
+    background-color: rgb(212, 212, 212);
+    box-shadow: 10px 10px 10px rgb(134, 133, 133);
 }
-.navbar button{
-    border: 2px solid rgb(73, 72, 72);
-    box-shadow: 10px 10px 5px grey;
-    width: 100px;
-    height: 40px;
-}
-.navbar ul li{
-     list-style: none;
-}
-/* customer-info */
+
+/* customer-info-style */
+
 .customer-info{
-    width:92%;
-    border: 6px solid rgb(73, 72, 72);
-    box-shadow: 10px 10px 5px grey;
-    padding: 20px;
-    margin: 20px;
+    margin-top: 60px;
+    background-color: rgb(212, 212, 212);
+    box-shadow: 10px 10px 10px rgb(134, 133, 133);
 }
+
 /* order-info */
+
 .order-info{
-    border: 6px solid rgb(73, 72, 72);
-    box-shadow: 10px 10px 5px grey;
-    width: 92%;
-    margin: 20px;
-    padding: 20px;
-}
-.order-info table{
-    width: 100%;
+    background-color: rgb(212, 212, 212);
+    box-shadow: 10px 10px 10px rgb(134, 133, 133);
     text-align: center;
+}
+.order-info li{
     list-style-position: inside;
 }
 
-/* product-detail */
-.product-list div{
-    padding-right: 50px;
-    padding-left: 30px; 
-    margin-top: 20px;
+/* product-list */
+.product-list{
+    background-color: rgb(212, 212, 212);
+    margin-top: 60px;
+    box-shadow: 10px 10px 10px rgb(134, 133, 133);
 }
-/* .img-1,.img-2{
-    align-content: center;
-} */
-.product-list {
-    align-content: center;
-    display: inline-flex;
-    border: 5px solid rgb(73, 72, 72);
-    box-shadow: 10px 10px 5px rgb(128, 128, 128);
-    width: 95%;
-    margin: 20px;
+.card{
+    width: 700px;
+    height: 152px;
+    text-align: left;
 }
-
+.card img{
+    width: 150px;
+    height: 150px;
+}
+.arrowright{
+    margin-top: 80px;
+    font-size: 1em;
+}

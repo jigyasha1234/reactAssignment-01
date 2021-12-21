@@ -1,0 +1,43 @@
+
+/* nanbar-style */
+
+.nav-arrow,.nav-button{
+    font-size: 1em;
+    color: black;
+}
+.nav-hr{
+    background-color: rgb(212, 212, 212);
+    box-shadow: 10px 10px 10px rgb(134, 133, 133);
+}
+
+/* customer-info-style */
+
+.customer-info{
+    margin-top: 60px;
+    background-color: rgb(212, 212, 212);
+    box-shadow: 10px 10px 10px rgb(134, 133, 133);
+}
+
+/* order-info */
+
+.order-info{
+    background-color: rgb(212, 212, 212);
+    box-shadow: 10px 10px 10px rgb(134, 133, 133);
+    text-align: center;
+}
+.order-info li{
+    list-style-position: inside;
+}
+
+/* product-list */
+.product-list{
+    margin-top: 60px;
+    box-shadow: 10px 10px 10px rgb(134, 133, 133);
+}
+.colr{
+    background-color: rgb(212, 212, 212);
+}
+.arrowright{
+    margin-top: 40px;
+    font-size: 1em;
+}

@@ -9,3 +9,14 @@ body {
   color: black;
   margin:0;
 } 
+/* .middle{
+  margin-left: 600px;
+} */
+.small-box img{
+  width: 300px;
+  height: 200px;
+}
+.small-box .card{
+  width: 400px;
+  
+}

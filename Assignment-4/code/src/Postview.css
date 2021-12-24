@@ -1,5 +1,6 @@
 .site-container{
   text-align: center;
+  background: linear-gradient(to top, #579fc0 0%, #021546 100%);
 }
 html {
   font-size: 14px;
@@ -12,11 +13,11 @@ body {
 /* .middle{
   margin-left: 600px;
 } */
-.small-box img{
-  width: 300px;
-  height: 200px;
+
+.topnavbar{
+  font: 3em sans-serif;
+  font-family: Brush Script MT, Brush Script Std, cursive;
 }
-.small-box .card{
-  width: 400px;
-  
+.navsize{
+  font-size: 2em;
 }
